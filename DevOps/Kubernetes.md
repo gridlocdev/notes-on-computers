@@ -2,8 +2,6 @@
 
 Kubernetes is an open-source Container Orchestration tool created by Google, and is currently the most popular tool in the industry for organizing and managing containers.
 
-This tutorial will be based on myself going through the tutorial on Kubernetes's website at: [External Link: Kubernetes.io - Learn the Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-
 Before we start, there is an important distinction to make between what tools are available to use while creating your Container cluster. A **Host** is a term for the environment that _hosts_ your application, be it configured on a bare metal operating system or a Virtual Machine. Some tools are built to deploy to **_multiple_** hosts, and others are built to just deploy to a **_singular_** host for the use of local testing.
 
 ## Multi-Host Orchestration Tools
