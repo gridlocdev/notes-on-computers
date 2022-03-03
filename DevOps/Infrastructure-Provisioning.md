@@ -1,6 +1,6 @@
 # Infrastructure Provisioning
 
-Web applications are becoming more compartmentalized into individual services, often referred to as _microservices_. 
+Web applications are becoming more compartmentalized into individual services, often referred to as _microservices_.
 
 When lots of these small services are grouped together for an application, it can become difficult to do the initial setup of resources as well as deploy changes to one or more services in the bunch that need updating or re-deployment.
 
@@ -22,6 +22,7 @@ To actually define the set of resources you want to deploy, you typically create
 ### Template languages
 
 The language templates are written in can vary by the tool you use, but typically is either written in:
+
 - A standard language like JSON or YAML
 - A DSL (Domain-specific language), which is a higher-level abstraction to more easily write in for a specific infrastructure provisioning tool such as _Bicep_ for Azure resource templates and _HCL_ (Hashicorp Configuration Language) for Terraform templates.
 

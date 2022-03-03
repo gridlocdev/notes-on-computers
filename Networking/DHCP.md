@@ -9,8 +9,8 @@ It's also responsible for implementing both [DOC: Subnets](Subnets.md), and [DOC
 - [What is DHCP](#what-is-dhcp)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-    - [*Static IP* [Old way]](#static-ip-old-way)
-    - [*Dynamic IP* [Modern way]](#dynamic-ip-modern-way)
+    - [_Static IP_ [Old way]](#static-ip-old-way)
+    - [_Dynamic IP_ [Modern way]](#dynamic-ip-modern-way)
   - [WHERE'S MY DHCP SERVER?](#wheres-my-dhcp-server)
     - [Home Network](#home-network)
     - [Business Network](#business-network)
@@ -27,11 +27,11 @@ IP addresses are strings of numbers that identify a PC on a network. Because of 
 
 IP can be assigned in two ways: Static and Dynamic.
 
-### *Static IP* [Old way]
+### _Static IP_ [Old way]
 
 Each computer is manually configured to contain an IP address, and is typed in through operating system settings. (This also includes subnet masks, and default gateway)
 
-### *Dynamic IP* [Modern way]
+### _Dynamic IP_ [Modern way]
 
 A computer gets its network identifiers from a separate server, a DHCP (Dynamic Host Configuration Protocol) server. This server configures the host, by generating and assigning that computer the following:
 

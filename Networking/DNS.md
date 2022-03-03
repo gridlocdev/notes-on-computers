@@ -31,11 +31,11 @@ The ISP and your local DNS server is responsible for caching IP addresses and do
 
 > If you would like to see your local DNS server's cached addresses and IPs in Windows 10, type:
 >
-> **ipconfig /displaydns**
+> `ipconfig /displaydns`
 
 But, in the case that it is not cached, there is a process that your ISP's resolver takes to find and deliver back the appropriate IP address for that domain. This is called an **_iterative_** DNS query
 
-***TLDR: Your local DNS server and your ISP's resolver search their cache to try and find a domain-IP pair. If not, the following ISP domain discovery begins.***
+> TLDR: Your local DNS server and your ISP's resolver search their cache to try and find a domain-IP pair. If not, the following ISP domain discovery begins.
 
 If the ISP's resolver cache does not contain a domain name and IP pair, it sends it to a **Root Server**.
 

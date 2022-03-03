@@ -1,6 +1,6 @@
 # Cloud Providers
 
-In the modern day, it's significantly easier to host your applications on another hosting provider than it is to run your own servers. Companies that provide remote hosting of your assets are called _cloud providers_. 
+In the modern day, it's significantly easier to host your applications on another hosting provider than it is to run your own servers. Companies that provide remote hosting of your assets are called _cloud providers_.
 
 ## Example Providers
 

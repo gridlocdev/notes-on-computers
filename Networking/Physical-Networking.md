@@ -21,7 +21,7 @@ Ethernet is often run through walls, and is inconvenient in most rooms without a
 
 ## Network Types
 
-Every accessible computing or networking device in a network is called a ***node***. Nodes are a term to represent the concept of a device that contains a certain set of distinguishable characteristics such as an IP address, network protocol, and so on.
+Every accessible computing or networking device in a network is called a **_node_**. Nodes are a term to represent the concept of a device that contains a certain set of distinguishable characteristics such as an IP address, network protocol, and so on.
 
 Networks vary in size. Here are some examples:
 

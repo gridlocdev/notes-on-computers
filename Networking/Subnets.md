@@ -71,7 +71,7 @@ Therefore, each class has the following set of malleable digits that it can assi
 
 ### CIDR Overview
 
-In 1993, a new class-less way of representing subnets was created called CIDR (pronounced "*cider*"). In the current day, this is the standard way of doing subnetworks.
+In 1993, a new class-less way of representing subnets was created called CIDR (pronounced "_cider_"). In the current day, this is the standard way of doing subnetworks.
 
 ### Subnet Masks with CIDR
 
