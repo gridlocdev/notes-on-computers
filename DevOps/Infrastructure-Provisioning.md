@@ -20,7 +20,3 @@ resource "aws_vpc" "myapp-vpc" {
   }
 }
 ```
-
----
-
-[**Return to Table of Contents: IaC**](../Default.md#table-of-contents)
