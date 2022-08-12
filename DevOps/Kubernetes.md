@@ -72,7 +72,7 @@ Once MiniKube is installed and configured, the commands on the tool are now acce
 
 ## Container Orchestration
 
-Containers changed the way that application architecture is hosted. In recent times, applications on the web have been broken down into smaller services called _microservices_. Each of these microservices in an application stack is not run via web server software directly touching the operating system, but instead is run on an isolated system runtime known as a [Container](../Containers/Default.md).
+Containers changed the way that application architecture is hosted. In recent times, applications on the web have been broken down into smaller services called _microservices_. Each of these microservices in an application stack is not run via web server software directly touching the operating system, but instead is run on an isolated system runtime known as a [Container](../Containers/Index.md).
 
 To define your set of Containers to be deployed and managed at scale, the most feasible option is to use a Container Orchestration tool. There are a number of popular Container Orchestration tools, here are the most notable ones:
 
@@ -81,7 +81,7 @@ To define your set of Containers to be deployed and managed at scale, the most f
 - Nomad
 - Amazon ECS
 
-Since Container Orchestration is about organizing and connecting individual containers, learning how those individual containers work first is an important step to begin to understand Orchestration: [Containers with Docker](../Containers/Default.md)
+Since Container Orchestration is about organizing and connecting individual containers, learning how those individual containers work first is an important step to begin to understand Orchestration: [Containers with Docker](../Containers/Index.md)
 
 For the purposes of my notes, I'll be taking a look at Kubernetes as it is the industry standard for Container Orchestration.
 
@@ -90,6 +90,6 @@ For the purposes of my notes, I'll be taking a look at Kubernetes as it is the i
 - **_Clusters_** are groups of physical servers or VMs (Virtual Machines), the computer infrastructure that the containers are running on.
 - **_Pods_** are groups of deployed containers, which can be distributed among any number of servers in a _cluster_.
 - **_Kubernetes_** is a container orchestration framework created by Google.
-- **_MiniKube*** is a tool created by Google to create Kubernetes clusters on a local machine for testing and development.
-- **_Control Plane*** is a process that coordinates collaborative actions on or between all of the nodes in a Kubernetes cluster.
-- **_Nodes*** are each individual worker machine in a _cluster_
+- **_MiniKube_** is a tool created by Google to create Kubernetes clusters on a local machine for testing and development.
+- **_Control Plane_** is a process that coordinates collaborative actions on or between all of the nodes in a Kubernetes cluster.
+- **_Nodes_** are each individual worker machine in a _cluster_
