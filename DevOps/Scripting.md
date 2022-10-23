@@ -13,27 +13,12 @@ Such as:
 
 ## Choosing a Language
 
-When it comes to choosing how you implement scripting a task, there are two main types of programming  languages to choose: **Interpreted** and **Compiled** languages.
-
-### Interpreted Languages
-
-Interpreted languages are passed to another program on the computer that knows how to read it, and the code that runs is done inside that running program instance.
-
-These types of languages are typically used in combination with a specific execution environment like JavaScript in the V8 browser engine, PowerShell in Windows, or BASH in Linux.
+DevOps scripts are intended to be portable, easily readable, and integrate well with the systems the tasks are being automated for. To accomplish this, most DevOps engineers choose a programming language that fits these criteria.
 
 Some examples to look at for DevOps are:
 
-- BASH
+- Python (Most popular)
 - PowerShell
-
-### Compiled Languages
-
-Compiled languages are converted to machine code by a *compiler*, and executed on the computer memory in the exact form it was written in.
-
-You would typically use compiled languages for creating new programs and extending existing ones. With the use of packages, you can typically use these as well to conduct regular system tasks.
-
-Some examples to look at for DevOps are:
-  
-- Python (Most popular in today's DevOps space)
+- BASH  
 - Go
 - Ruby
